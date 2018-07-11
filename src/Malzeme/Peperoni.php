@@ -6,6 +6,6 @@ class Peperoni extends AbstractMalzeme
 {
     public function __construct($miktar)
     {
-        parent::__construct('Mantar', $miktar, 'dilim');
+        parent::__construct('Peperoni', $miktar, 'dilim');
     }
 }
