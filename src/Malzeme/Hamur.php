@@ -6,6 +6,6 @@ class Hamur extends AbstractMalzeme
 {
     public function __construct($miktar)
     {
-        parent::__construct('Hamur', $miktar, 'adet');
+        parent::__construct('Hamur', $miktar, 'gr');
     }
 }
