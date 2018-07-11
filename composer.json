@@ -1,0 +1,26 @@
+{
+  "name": "yarimadam/pizza",
+  "description": "Composer ile kurulabilen PHP kütüphanesi örneği.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Halil Tuncay Uner",
+      "email": "tuncayuner@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Yarimadam\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "test"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^7.2"
+  }
+}
